@@ -1,0 +1,19 @@
+[build-system]
+requires = ["setuptools>=61.0"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "chronofile"
+version = "0.1.0"
+description = "A local, dependency-free time machine for your files: content-addressable snapshots with a git-like CLI."
+readme = "README.md"
+requires-python = ">=3.9"
+license = { text = "MIT" }
+authors = [{ name = "Your Name" }]
+keywords = ["backup", "versioning", "file-watcher", "cli", "snapshots"]
+
+[project.scripts]
+chronofile = "chronofile.cli:main"
+
+[tool.setuptools.packages.find]
+include = ["chronofile*"]

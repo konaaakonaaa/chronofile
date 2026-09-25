@@ -32,7 +32,7 @@ Ctrl+Z откатывает только последнее действие. Gi
 ## Установка
 
 ```bash
-git clone https://github.com/ВАШ_НИК/chronofile.git
+git clone https://github.com/konaaakonaaa/chronofile.git
 cd chronofile
 pip install -e .
 ```
